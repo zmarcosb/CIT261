@@ -1,10 +1,29 @@
-.bg{
-	    	background: linear-gradient(to right, #804700, #b600ff);
-		height: 100%;
-	    }
-	    
-	    .link{
-	    	color: white;
-			font-size: 150%;
-			
-	    }
+
+h1{
+    font-size: 40px;
+    color: salmon;
+    border-color: black;
+    text-align: center;
+    margin-top: 3%;
+   
+}
+
+button {
+  background-color: darkgray;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+div{
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+}    
