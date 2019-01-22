@@ -1,0 +1,32 @@
+h1{
+    font-size: 60px;
+    color: #72ecd0d9;
+    border-color: black;
+    text-align: center;
+    margin-top: 3%;
+   
+}
+
+div{
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+}    
+
+.bt{
+    background-color: #d24f4f;
+    border-radius: 12px;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+td{
+    tab-size: 30px;
+}
