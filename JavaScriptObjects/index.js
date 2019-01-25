@@ -1,26 +1,42 @@
+//Objects and properties
+// Object
+var vanessa = {
+    firstName: 'Vanessa',
+    lastName: 'Marcos',
+    birthYear: 1993,
+    family: ['Roger', 'Zaida', 'Leslie', 'Sammy'],
+    job: 'engineer',
+    isMarried: false
+};
 
-// var name = "Vanessa";
-// var lastName = "Marcos";
-// var age = 25;
-// var sport = "Karate";
+console.log(vanessa.firstName);
+console.log(vanessa['lastName']);
+var x = 'birthYear';
+console.log(vanessa[x]);
 
-// document.write(name);
+// vanessa.job = 'designer';
+// vanessa['isMarried'] = true;
+// console.log(vanessa);
 
+// new Object syntax
+var leslie = new Object();
+leslie.firstName = 'leslie';
+leslie.birthYear = 1996;
+leslie['lastName'] = 'Marcos';
+console.log(leslie);
 
-// Create an object: 
-let person1  = {
-firstName: "Vanessa", 
-lastName: "Marcos", 
-age: 25,
-sport: "Karate" 
-}; 
-//document.write(person.firstName);
-document.write(person1.firstName + " likes " + person1.sport + "<br>");
+// Methods
+var vanessa = {
+    firstName: 'Vanessa',
+    lastName: 'Marcos',
+    birthYear: 1993,
+    family: ['Roger', 'Zaida', 'Leslie', 'Sammy'],
+    job: 'engineer',
+    isMarried: false,
+    calcAge: function() {
+        this.age = 2018 - this.birthYear;
+    }
+};
 
-let person2  = {
-firstName: "Joseph", 
-lastName: "Baker", 
-age: 18,
-sport: "Karate" 
-}; 
-document.write(person2.firstName + " is " + person2.age + " years old.");
+vanessa.calcAge();
+console.log(vanessa);
