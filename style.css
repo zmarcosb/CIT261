@@ -7,6 +7,11 @@ h1{
    
 }
 
+body{
+    background-position: center;
+    background-size: cover;
+}
+
 div{
     text-align: justify;
     margin-left: 30%;
@@ -25,4 +30,6 @@ div{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    height: 60px;
+    width: 200px;
 }
