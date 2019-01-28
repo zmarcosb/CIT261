@@ -1,0 +1,18 @@
+h1{
+    font-size: 60px;
+    color: #f7ca61de;
+    border-color: black;
+    text-align: center;
+    margin-top: 3%;
+   
+}
+
+body{
+    background-position: center;
+    background-size: cover;
+}
+
+
+.youtube{
+	text-align: center;	
+}
