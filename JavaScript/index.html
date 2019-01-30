@@ -6,8 +6,36 @@
         <title>JavaScript Language Basics</title>
     </head>
 
-    <body background="wallpaper.jpg">
+    <body >
         <h1>JavaScript Language Basics</h1>
-    </body>
-    <script src="script.js"></script>
+	</body>
+		<h2>Adding Function</h2>
+		<form action="">
+			<input type="text" id="n1">
+			<a> + </a>
+			<input type="text" id="n2">
+			<input type="button" value="Calculate" onclick="alert(sum());">
+		</form>
+    
+	<script>
+		var sum = function(n1, n2){
+			var n1 = parseFloat(document.getElementById("n1").value);
+			var n2 = parseFloat(document.getElementById("n2").value);
+			
+			var result = n1 + n2;
+			return result;
+		}
+	
+		var list = new Array(3);
+		
+		for(i=0; i<3; i++){
+		 list[i] = prompt("Add one by one three of your favorites desert:", "");
+		}
+		document.write("<br>" + "Favorite desert" + "<br>" + list[0] + "<br>" + list[1] + "<br>" + list[2]);
+		
+	
+	
+	
+	</script>
+	
 </html>
