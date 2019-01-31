@@ -13,6 +13,30 @@ body{
 }
 
 
-.youtube{
+.youtube, .mp3, .gotocanvas{
 	text-align: center;	
+}
+
+a{
+    font-size: 30px;
+    color: #f7ca61de;
+    border-color: black;
+    text-align: center;
+    margin-top: 3%;
+   
+}
+
+.bt{
+    background-color: #d24f4f;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+	
 }
