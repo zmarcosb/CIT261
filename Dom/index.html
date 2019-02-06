@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+	<title>Document Object Model</title>
+</head>
+<body>
+	<h1 id="title">Document Object Model</h1>
+	<div id = "subtitle"></div>
+	<p>Is the structure of the website made up of elements called nodes.</p>
+	
+	<ul id="colors">
+		<li>Black</li>
+		<li id="item">Yellow</li>
+		<li>Red</li>
+	</ul>
+
+	<script>
+		//Creating the element
+		var element = document.createElement("h2");
+		//Creating a text node
+		var content = document.createTextNode("This is a text node");
+		//Adding the text node to the element
+		element.appendChild(content);
+		//Adding atributes to the element
+		element.setAttribute("align", "center");
+		//Adding the element to the document
+		document.getElementById("subtitle").appendChild(element);
+		
+		
+		//Interting a new item in the list
+		function firstDom(){
+		var obj = document.getElementById("h2");
+		obj.innerHTML = "This is different text";
+	}
+		
+		const colors = document.getElementById('colors');
+		const item = document.getElementById('item');
+		
+		const newItem = document.createElement('li');
+		newItem.textContent = 'Blue';
+		
+		colors.insertBefore(newItem, item);
+		
+	</script>
+</body>
+</html>
