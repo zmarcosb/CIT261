@@ -20,7 +20,7 @@
 		//Creating the element
 		var element = document.createElement("h2");
 		//Creating a text node
-		var content = document.createTextNode("This is a text node");
+		var content = document.createTextNode("This is a text node added with the command <b>appendChild</b>");
 		//Adding the text node to the element
 		element.appendChild(content);
 		//Adding atributes to the element
@@ -39,7 +39,7 @@
 		const item = document.getElementById('item');
 		
 		const newItem = document.createElement('li');
-		newItem.textContent = 'Blue';
+		newItem.textContent = 'Blue - insertBefore';
 		
 		colors.insertBefore(newItem, item);
 		
