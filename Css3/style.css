@@ -1,0 +1,48 @@
+*{
+            margin: 0;
+            padding: 0;
+        }
+		
+		h1{
+			font-size: 60px;
+			color: #f7ca61de;
+			border-color: black;
+			text-align: center;
+			margin-top: 3%;
+   
+		}
+		
+		h2{
+			font-size: 40px;
+			color: #f7ca61de;
+			border-color: black;
+			text-align: center;
+			margin-top: 3%;
+   
+		}
+				
+        .button{
+            width: 50;
+            height: 50;
+            font-size: 25;
+            margin: 2;
+            cursor: pointer;
+            background: #795548;
+            border: none;
+            color: white;
+        }
+        .view{
+            width: 217;
+            margin: 5;
+            font-size: 25;
+            padding: 5;
+            border: none;
+        }
+        .main{
+			padding-top: 3%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+       
