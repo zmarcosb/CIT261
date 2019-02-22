@@ -1,11 +1,6 @@
-h1{
-    font-size: 60px;
-    color: #f7ca61de;
-    border-color: black;
-    text-align: center;
-    margin-top: 3%;
-   
-}
+* { margin: 0; box-sizing: border-box; }
+
+
 
 body{
     background-position: center;
@@ -23,7 +18,7 @@ div{
     background-color: #d24f4f;
     border-radius: 12px;
     color: white;
-    padding: 20px 20px;
+    padding: 8px 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -31,5 +26,29 @@ div{
     margin: 4px 2px;
     cursor: pointer;
     height: 60px;
-    width: 200px;
+    width: 160px;
 }
+
+.bt:hover{
+	background-color: cornflowerblue;
+	transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.txt h1{
+    text-align: center;
+	font-size: 60px;
+	color: rgba(255,255,255,.1);
+	background-image: url(paper.jpg);
+	-webkit-background-clip: text;
+	animation: animate 15s linear infinite;
+}
+
+	@keyframes animate{
+		0%{
+			background-position: left 0px top 10px;
+		}
+		40%{
+			background-position: left 800px top 10px;
+		}
+	}
