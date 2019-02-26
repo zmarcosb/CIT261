@@ -12,4 +12,6 @@ function add(){
     addSum.innerHTML = "Result: " + result;
 }
 
-/**********************************************************/
+function displayDate() {
+    document.getElementById("date").innerHTML = Date();
+}
