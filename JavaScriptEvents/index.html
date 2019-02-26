@@ -2,20 +2,19 @@
     <head>
     <title>JavaScript Events</title>    
     <link href="style.css" rel="stylesheet" type="text/css">    
-    </head>
-    
+    </head>    
         <body background="wallpaper.jpg">
-         <h1>JavaScript Events</h1>  
+         <h1 ontouchstart="style.color='#5abd11de'">JavaScript Events</h1>  
         <main>
             <h3>Add Numbers:</h3>
             <p>
                 <input id="n1"> + <input id="n2">
             </p>
-            <p id="sum"></p>
-                
-         
-                
-                
+            <p id="sum"></p><br>
+            <div id=dt>
+            <button class="bt" onclick="displayDate()">The time is?</button> 
+            <p id="date"></p>
+            </div>
         </main>
         <script src='script.js'></script>
         </body>
