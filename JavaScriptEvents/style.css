@@ -22,7 +22,9 @@ p{
 	color: #f7ca61de;
 }
 
-
+#dt{
+    text-align: center;
+}
 
 .hide{
     display: none;
@@ -34,9 +36,22 @@ a, li{
     font-size: 20px;
 }
 
+.bt{
+    background-color: #d24f4f;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 40px;
+    width: 160px;
+}
 
-
-
-
-
-
+.bt:hover{
+	background-color: cornflowerblue;
+	transform: rotate(360deg);
+    transition: all 0.3s ease-in-out;
+}
