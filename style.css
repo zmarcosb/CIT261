@@ -32,20 +32,13 @@ div{
     transition: all 0.5s ease-in-out;
 }
 
-.txt h1{
+h1{
+    font-size: 60px;
+    color: #f7ca61de;
+    border-color: black;
     text-align: center;
-	font-size: 60px;
-	color: rgba(255,255,255,.1);
-	background-image: url(paper.jpg);
-	-webkit-background-clip: text;
-	animation: animate 15s linear infinite;
+    margin-top: 3%;
+   
 }
 
-	@keyframes animate{
-		0%{
-			background-position: left 0px top 10px;
-		}
-		40%{
-			background-position: left 800px top 10px;
-		}
-	}
+	
