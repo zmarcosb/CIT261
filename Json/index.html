@@ -1,13 +1,25 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<title>JSON</title>
 	
 </head>
-	
-<body onload="jsonParse()">
-	
+<body>
+    <h1>JSON Parse</h1>
+    <a>{"name": "Rose","lastName": "Smith","age": 25,"hobbie": "sing"}</a><br><br>
     
+    <button class="bt" onclick="displayParse()">Convert</button><br>
+    <p id="txt"></p>
+    
+	<h1>JSON Stringfy</h1>
+    <a>Height: 1.70<br>
+       Age: 26<br>
+       Eyes Color: green<br><br>
+    </a>
+    
+    <button class="bt" onclick="displayString()">Convert</button><br>
+    
+    <p id="showString"></p>
+
     <script src="script.js"></script>
 </body>
 </html>
