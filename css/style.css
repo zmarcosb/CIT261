@@ -8,7 +8,7 @@ body{
 .txt h1{
 	font-size: 60px;
 	color: rgba(255,255,255,.1);
-	background-image: url(wallpaper.jpg);
+	background-image: url(paper.jpg);
 	-webkit-background-clip: text;
 	animation: animate 15s linear infinite;
 }
