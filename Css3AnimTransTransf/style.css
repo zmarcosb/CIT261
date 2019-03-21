@@ -1,0 +1,33 @@
+#container{
+	text-align: center;
+}
+
+#ball{
+	position: absolute;
+	background: red;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;	
+}
+
+.movingLeft {
+  animation-name: left;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+}
+
+.movingRight {
+  animation-name: right;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+}
+
+@keyframes left {
+  from {left: 1%;}
+  to {left: 100%;}
+}
+
+@keyframes right {
+  from {right: 1%;}
+  to {right: 100%;}
+}
