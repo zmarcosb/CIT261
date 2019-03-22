@@ -1,13 +1,31 @@
-#container{
-	text-align: center;
-}
-
+#direct{
+	 text-align: center;
+	 padding-top: 15%;
+ }
+ 
 #ball{
 	position: absolute;
-	background: red;
+	background: #eca22f;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;	
+}
+
+body{
+	background-color: #2b5c8c;
+}
+
+.btn{
+	background-color: #d24f4f;
+    border-radius: 12px;
+	color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 60px;
+    width: 160px;
 }
 
 .movingLeft {
