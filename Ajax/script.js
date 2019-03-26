@@ -1,9 +1,8 @@
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
   if(xhr.readyState === 4) { // Obtaining the response of the request
-    var flights = JSON.parse(xhr.responseText); // Display data
-    console.log(flights);
-    /* var statusHTML = '';
+    var flights = JSON.parse(xhr.responseText);
+    var statusHTML = '';
     for(var i = 0; i < flights.length; i++) {
       statusHTML += '<tr>';
       statusHTML += '<td>' + flights[i].time + '</td>';
@@ -20,8 +19,8 @@ xhr.onreadystatechange = function() {
       }
       statusHTML += '</tr>';
     }
-    document.querySelector('.flightStatus tbody').innerHTML = statusHTML; */
+    document.querySelector('.flightStatus tbody').innerHTML = statusHTML;
   }
 }
-xhr.open('GET', 'flight.json'); // Obtaining data from json file
+xhr.open('GET', 'https://zmarcosb.github.io/CIT261/Ajax/flight.json'); // Obtaining data from json file
 xhr.send();
