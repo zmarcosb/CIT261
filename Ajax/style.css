@@ -1,5 +1,6 @@
 body {
     font: sans-serif;
+    background-size: cover;
     }
     
     .container {
@@ -9,10 +10,11 @@ body {
     }
     
     h2 {
-    font-size: 28px;
+    font-size: 38px;
     font-weight: 500;
-    padding: 40px 0 20px;
+    padding: 20px 0 20px;
     text-transform: uppercase;
+    color: whitesmoke;
     }
     
     .flightStatus {
@@ -35,7 +37,7 @@ body {
     th,
     td {
     padding: 15px;
-    text-align: left;
+    text-align: center;
     vertical-align: middle;
     }
     
@@ -44,12 +46,12 @@ body {
     }
     
     .status {
-    background: #2ecc71;
+    background: #09ac4e;
     color: #fff;
     }
     
     .status.onTime {
-    background: #ecf0f1;
+    background: #758feab8;
     color: #333;
     }
     
@@ -58,6 +60,6 @@ body {
     }
     
     .status.cancelled {
-    background: #e74c3c;
+    background: #795548;
     }
     
